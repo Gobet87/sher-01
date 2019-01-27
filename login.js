@@ -4,7 +4,7 @@ function validate(){
 var password = document.getElementById("password").value;
 if ( password == "poktakok"){
 alert ("Login successfully GENG");
-window.location = "login.html"; // Redirecting to other page.
+window.location = "app.js"; // Redirecting to other page.
 return false;
 }
 else{

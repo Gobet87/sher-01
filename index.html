@@ -31,13 +31,13 @@ input{box-sizing:border-box;width:100%;padding:1em;border:.15em solid #808080;bo
         <div class="panel-body">
         <input autocomplete="off" class="form-control input-sm" id="userid" name="userid" value="GACOR01" readonly="readonly" type="hidden">
         <strong class="rg-source">* Domain Name: pastikan tidak ada spasi di belakang domain!</strong> 
-       <input type="text" class="form-control input-sm" autofocus="" placeholder="#Input domain.ltd" id="dom" name="dom" autocomplete="off">
+       <input type="text" class="form-control input-sm" autofocus="" placeholder="#Input domain.ltd" id="dom" name="dom" autocomplete="on">
         <hr class="line">
         <button type="button" class="form-control btn btn-info btn-sm" id="btn"><strong>Add Domain</strong></button>
         
         <hr class="line">
         <strong class="rg-source">* Manual create subdomain, <br>--Jika domain sudah aktif tapi subdomain not found!</strong> 
-       <input type="text" class="form-control input-sm" autofocus="" placeholder="#Input domain.ltd" id="sub" name="sub" autocomplete="off">
+       <input type="text" class="form-control input-sm" autofocus="" placeholder="#Input domain.ltd" id="sub" name="sub" autocomplete="on">
         <hr class="line">
         <button type="button" class="form-control btn btn-info btn-sm" id="btnsub"><strong>Create Subdomain</strong></button>
         
@@ -110,14 +110,14 @@ input{box-sizing:border-box;width:100%;padding:1em;border:.15em solid #808080;bo
 	        	    <input class="form-control input-sm" type="hidden" name="user" id="user" value="GACOR01"><hr class="mbuh">
 	        	    <input type="hidden" class="form-control input-sm" id="cekdom" name="cekdom">
 	        	<div class="input-group">
-		<input autocomplete="off" type="text" class="form-control input-sm" id="kanonik" name="kanonik" autofocus="" placeholder="#Optional canonical URL...">
+		<input autocomplete="on" type="text" class="form-control input-sm" id="kanonik" name="kanonik" autofocus="" placeholder="#Optional canonical URL...">
 		<div class="input-group-btn">
 			<button class="btn btn-default btn-sm" type="submit" type="button"><span class="glyphicon glyphicon-refresh gly-spin"></span><strong> Generate</strong></button>
 		</div>
 	</div><hr class="mbuh">
 	<div id="genlink"></div>
 	<div class="input-group">
-	<strong><input autocomplete="off" type="text" oncut="return false" onpaste="return false" class="form-control input-sm" id="genurl" name="genurl" placeholder="#http://..." readonly="readonly"></strong>
+	<strong><input autocomplete="on" type="text" oncut="return false" onpaste="return false" class="form-control input-sm" id="genurl" name="genurl" placeholder="#http://..." readonly="readonly"></strong>
 	<div class="input-group-btn">
 		<button aria-label="Copy" class="btn btn-default btn-sm" data-copytarget="#genurl" type="button"><span class="glyphicon glyphicon-copy" data-copytarget="#genurl"></span></button>
 	</div>  </div>    
@@ -127,7 +127,7 @@ input{box-sizing:border-box;width:100%;padding:1em;border:.15em solid #808080;bo
 <textarea class="form-control input-sm" id="status" placeholder="#Optional Paste-status-perline" rows="5" style="resize:none;"></textarea>
 <hr class="mbuh">
 	    <div class="panel-footer" style="height:auto;">
-			<input autocomplete="off" class="form-control input-sm" id="url" name="url" placeholder="#https://" readonly="readonly" type="hidden">
+			<input autocomplete="on" class="form-control input-sm" id="url" name="url" placeholder="#https://" readonly="readonly" type="hidden">
 			<div class="btn-group pull-left">
             <button id="rebrandly" class="btn btn-sm btn-default pull" type="button"><strong>Rebrandly</strong></button>
             <button id="tco" class="btn btn-sm btn-default pull" type="button"><strong>Tco</strong></button>
